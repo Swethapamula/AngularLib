@@ -1,0 +1,26 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+</div>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+ 
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+   
+    <ul class="navbar-nav navbar-right">
+        <a class="nav-link"  routerLink="/login">Login</a>
+        <a class="nav-link" style="cursor:pointer" routerLink="books-list">Books</a>
+        <a class="nav-link" style="cursor:pointer" routerLink="authors-list">Authors</a>
+        <a class="nav-link" style="cursor:pointer" routerLink="addbooks">Add Books</a>
+        <a class="nav-link" style="cursor:pointer" routerLink="addauthors">Add Authors</a>
+    </ul>
+  </div>
+</nav>    
+
+  
+<div class="container">
+  <router-outlet></router-outlet>            
+</div>
